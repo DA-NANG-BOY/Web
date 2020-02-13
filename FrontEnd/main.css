@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #searching {
     margin-left : 530px;
     width : 800px;
@@ -17,4 +20,9 @@
     top : 59.5px;
     left : 1341px;
     cursor: pointer;
-};
+}
+#banner{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
