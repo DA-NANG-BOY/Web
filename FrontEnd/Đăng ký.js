@@ -20,6 +20,8 @@ const check = document.getElementById('submit');
 
 };
 
+
+
 //check for database
 function check(username ,password ,repass) {
     let a = username.lenght;
