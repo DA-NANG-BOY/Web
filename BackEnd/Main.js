@@ -1,4 +1,4 @@
-import sanpham from "../BackEnd/sanpham.js"
+import sanpham from "./sanpham.js"
 
 let result = new sanpham();
 
