@@ -1,4 +1,4 @@
-import database from "./database.js"
+import database from "../FrontEnd/database.js"
 
 export default function sanpham(){
      this.name = [];
