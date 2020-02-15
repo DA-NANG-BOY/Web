@@ -1,10 +1,9 @@
 export default function database () {
      this.username = [];
      this.password = [];
-     this.init = function() {
-         console.log(username);
-         console.log(password);
-     }
+     this.email = [];
+     
+    
 };
 let DATA = new database();
 
