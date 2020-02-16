@@ -91,8 +91,8 @@ body{
    text-transform: uppercase;
 }
 #oos #os:nth-child(2){
-    color: white;
-    background: linear-gradient(0deg,#0066CC,#006666);
+    color: black;
+    background: linear-gradient(0deg,#66FFFF,yellow);
     padding: 5px 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -116,7 +116,7 @@ body{
     margin: 0 40px;
 }
 #name div:nth-child(3) p:nth-child(1) i{
-    background-color:blue	;
+    background-color:#3b5999	;
     color: white;
     padding: 5px 10px;
     border-top-left-radius: 10px;
