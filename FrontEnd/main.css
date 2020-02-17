@@ -1,7 +1,7 @@
 #loading{
     margin: 0;
     padding: 0;
-    background-color: #BBBBBB	;
+    background-color: black	;
     position: relative;
    height: 100vh;
    justify-content: center;
@@ -123,6 +123,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+   background-color:  rgba(0,0,0,.3);
+   overflow: scroll;
 }
 
 #searching {
@@ -137,8 +139,8 @@ body{
 
 #khung-chứa {
     position: absolute;
-    width : 60px;
-    height : 43px;
+    width : 55px;
+    height : 38px;
     
     top : 23px;
     right:460px;
@@ -171,16 +173,18 @@ body{
 #phần-trong ul li a{
     text-decoration: none;
     color: white;
-
+   
 }
 #phần-trong ul:nth-child(1) li{
     float: left;
-    margin-right:15px ;
+    padding:  0 15px;
+   
     line-height: 40px;
 }
 #phần-trong ul:nth-child(2) li{
     float: right;
-    margin-right: 15px;
+    padding:  0 15px;
+   
     line-height: 40px;
 }
 #phần-trong ul:nth-child(1) li #khoảng-cách{
@@ -221,5 +225,143 @@ body{
     height : 38px;
     font-size : 20px;
 }
+.shop{
+    top: 0;
+    right: 340px;
+    position: absolute;
+   
+}
+#mainer{
+    width: 100%;
+    height: 5618px;
+}
+#mainer #đầu{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(0deg,#66FF99,#66FFFF);
+    z-index: 1;
+}
+*{
+    box-sizing: border-box;
+}
+#mainer #đầu #inside{
+    height: 100%;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#mainer #đầu #inside div:nth-child(1){
+    width: 100%;
+    height: 100%;
+   
+}
+
+#mainer #đầu #inside div:nth-child(1) div:nth-child(1){
+    width: 100%;
+    height: 33.33333333333%;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(1):hover{
+    background-color: #555555;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(1) div:nth-child(1){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #888888;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(1) div:nth-child(1):hover{
+    background-color: white	;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(2){
+    height: 33.33333333333%;
+    width: 50%;
+    margin-right: 5px;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 20px;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(2):hover{
+    background-color: #555555;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(2) div:nth-child(1){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #888888;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(2) div:nth-child(1):hover{
+    background-color: white	;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(3){
+    height: 33.33333333333%;
+    width: 49.56%;
+   float: left;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(3):hover{
+    background-color: #555555;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(3) div:nth-child(1){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #888888;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(3) div:nth-child(1):hover{
+    background-color: white	;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(4){
+    height: 33.33333333333%;
+    width: 100%;
+   float: left;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(4):hover{
+    background-color: #555555;
+    cursor: pointer;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(4) div:nth-child(1){
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #888888;
+}
+#mainer #đầu #inside div:nth-child(1) div:nth-child(4) div:nth-child(1):hover{
+    background-color: white	;
+    cursor: pointer;
+}
+
+
+
+
+  
+  
+
 
 
