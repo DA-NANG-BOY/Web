@@ -5,8 +5,7 @@ body{
     align-items: center;
     height: 100vh;
    overflow: hidden;
-   background: url(https://bantranh.com/wp-content/uploads/2019/04/tranh-dan-tuong-3d-vu-tru-cua-con.jpg) no-repeat;
-   background-size: 100%;
+   
 }
 #name{
     width: 500px;
