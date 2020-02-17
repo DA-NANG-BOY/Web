@@ -13,3 +13,4 @@ function done_loading () {
  loading.height = 0;
 };
 
+setTimeout(done_loading,5000);
