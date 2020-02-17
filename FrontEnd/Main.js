@@ -3,4 +3,14 @@ const height = window.innerHeight ;
 
 
 
-const loading = document.getElementById('loading');
+let loading = document.getElementById('loading');
+
+loading.width = Width ;
+loading.height = height;
+
+function done_loading () {
+ loading.width = 0 ;
+ loading.height = 0;
+};
+
+setTimeout(done_loading,5000);
