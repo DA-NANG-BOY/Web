@@ -3,7 +3,7 @@ let DATA = new database();
 
 let b = 0;
 
-const check = document.getElementById('submit');
+const check = document.getElementById('os');
 
  check.onclick = function () {
      let username = document.getElementById('username').value ;
