@@ -1,16 +1,6 @@
-const Width = window.innerWidth;
-const height = window.innerHeight ;
-
-
-
-let loading = document.getElementById('loading');
-
-loading.width = Width ;
-loading.height = height;
-
-function done_loading () {
- loading.width = 0 ;
- loading.height = 0;
+const loading = document.getElementById('loading');
+function xóa() {
+    document.body.removeChild(loading);
 };
 
-setTimeout(done_loading,5000);
+setTimeout(xóa,3000);
