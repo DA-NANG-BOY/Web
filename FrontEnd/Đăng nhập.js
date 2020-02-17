@@ -1,4 +1,4 @@
-import database from "./Đăng ký"
+import database from "..BackEnd/database.js"
 
 let data = new database();
 

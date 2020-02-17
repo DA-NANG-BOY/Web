@@ -1,10 +1,4 @@
-export default function database () {
-     this.username = [];
-     this.password = [];
-     this.email = [];
-     
-    
-};
+import database from "..BackEnd/database.js"
 let DATA = new database();
 
 let b = 0;
