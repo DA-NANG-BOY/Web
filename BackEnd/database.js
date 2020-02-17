@@ -1,7 +1,7 @@
 export default function database() {
-       this.username = [] ;
-       this.password = [];
-       this.email = [];
+       this.username = new Array()  ;
+       this.password = new Array() ;
+       this.email =  new Array();
 };
 
 
