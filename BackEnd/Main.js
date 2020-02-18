@@ -3,4 +3,4 @@ function xóa() {
     document.body.removeChild(loading);
 };
 
-setTimeout(xóa,3000);
+setTimeout(xóa,2000);
