@@ -7,8 +7,8 @@ let sanpham = new sanpham();
 let database = new database();
 let đăng = new đăng();
 
-function check_sanpham(name,soluong,nguoidung) {
-
+class check {
+  
 }
 
 function sanpham_hot(name,soluong,master) {
